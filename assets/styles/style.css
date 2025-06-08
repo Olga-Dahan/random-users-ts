@@ -1,0 +1,27 @@
+.user-card, .favorite-card {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: grab;
+}
+
+.user-card img, .favorite-card img {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+}
+
+
+#favorites-section {
+  background-color: #fff8e1;
+  border-radius: 8px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ffc107;
+}
+
+
+
